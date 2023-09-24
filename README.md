@@ -20,13 +20,15 @@
 ## To-do list
 
 - [x] markdown基础
-- [ ] markdown进阶
+- [x] markdown进阶
 - [ ] vscode
 - [ ] bt
 - [ ] rss
 - [ ] 如何提问
 - [ ] 通信协议
 - [ ] 虚拟机
+- [ ] 开源协议
+- [ ] git入门
 
 *adding...*
 
