@@ -74,3 +74,54 @@ yay -S android-studio android-sdk-cmdline-tools-latest-dummy android-sdk-build-t
 接下来你需要同意许可协议并等待下载结束
 
 [参考 Arch Wiki](https://wiki.archlinux.org/title/Android#Android_Studio)
+
+## 配置
+
+配置存放位置：
+
+- ~/.android
+- ~/.config/Google/AndroidStudio2023.1
+
+打开Android Studio设置可以按快捷键`Ctrl+Alt+S`
+
+### 更改主题
+
+Appearance & Behavior -> Appearance -> Theme
+
+### New UI
+
+Appearance & Behavior -> New UI
+
+新版UI还是含好看的，可以尝试一下，很多known issues我认为是可以接受的
+
+### 背景图片
+
+Appearance & Behavior -> Appearance -> Background Image...
+
+### 网络设置
+
+Appearance & Behavior -> System Settings -> HTTP Proxy
+
+### 内存设置
+
+Appearance & Behavior -> System Settings -> Memory Settings
+
+这里应该按照电脑配置调整，大内存运行会更流畅，但受到电脑内存大小限制
+
+### 快捷键设置
+
+Keymap
+
+### 管理插件
+
+Plugins
+
+### 配置低的电脑配置
+
+- 减少分配内存，可以参考[内存设置](#内存设置)
+- 开启`Power Save Mode`，File -> Power Save Mode，会关闭一部分功能
+- 减少代码提示，Editor -> Inspections，去掉不需要的选项
+- 使用一台安卓设备调试
+- 关闭并行构建，Build, Execution, Deployment -> Gradle-Android Compiler -> Compile independent modules in parallel
+
+[相关文档](https://developer.android.com/studio/intro/studio-config#low_memory)
