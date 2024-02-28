@@ -16,6 +16,7 @@
 
 - [第0.0话 从markdown说开去](基础篇/第0.0话%20从markdown说开去.md)
 - [第0.1话 markdown进阶](基础篇/第0.1话%20markdown进阶.md)
+- [第1话 编程环境与VScode](基础篇/第1话%20编程环境与VSCode.md)
 - [第3.0话 版本管理与git入门](基础篇/第3.0话%20版本管理与git入门.md)
 
 ## To-do list
