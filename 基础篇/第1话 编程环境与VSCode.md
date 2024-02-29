@@ -117,7 +117,7 @@ IDE虽然方便，但也容易装上很多不需要的东西，当需要使用ID
 
 是也不是。VSCode有诸多版本：
 
-- `Code - OSS`：开源的部分，MIT协议，[git仓库](https://github.com/microsoft/vscode)，应用市场
+- `Code - OSS`：开源的部分，MIT协议，[git仓库](https://github.com/microsoft/vscode)
 - `VSCode`：微软的定制版本，非自由，官网上可以直接下载到，使用了闭源的api和扩展市场
 - `VSCodium`：社区定制版，MIT协议，[官网](https://vscodium.com/)，默认禁用遥测，github认证使用个人token，并使用[`Open VSX`](https://open-vsx.org/)作为默认扩展市场，虽然不如微软市场丰富，但开源
 
