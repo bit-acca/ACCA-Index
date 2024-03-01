@@ -17,3 +17,9 @@ lastmod: 2024-02-21
 - 使用Android Studio（自行安装，[电脑配置有要求](https://developer.android.com/studio/install)）
 
 奈何本人既不会Kotlin也不会Java，所以这部分的局限性也会很强，内容有错误也难以避免，仅供参考（如果有大佬能指出问题就更好了
+
+## 目录
+
+- [第1.0话 安装Android Studio](./第1.0话%20安装Android%20Studio.md)
+- [第1.1话 Android Studio安装及环境配置常见问题](./第1.1话%20Android%20Studio安装及环境配置常见问题.md)
+- [第2话 学习Kotlin](./第2话%20学习Kotlin.md)
