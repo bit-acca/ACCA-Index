@@ -160,7 +160,7 @@ int main() {
 
 链接的基本格式：`[说明](https://fwlink)`，对应html中的`<a>`
 
-说明不一定是文字，一些markdown格式可以嵌套进说明，参考[第01话 markdown进阶 - 嵌套](第01话%20markdown进阶#嵌套)
+说明不一定是文字，一些markdown格式可以嵌套进说明，参考[第01话 markdown进阶 - 嵌套](第01话%20markdown进阶.md#嵌套)
 
 ### 图片
 
@@ -172,4 +172,4 @@ int main() {
 
 以上是对Markdown的一个非常初始的介绍，目的仅仅是为了让同学们了解这个工具（也是为了同学们能看到这份教程）
 
-欲学习更多markdown的技术，成为markdown能力者，请跟随茵蒂克丝进入[Markdown进阶](第01话%20markdown进阶)
+欲学习更多markdown的技术，成为markdown能力者，请跟随茵蒂克丝进入[Markdown进阶](第01话%20markdown进阶.md)
