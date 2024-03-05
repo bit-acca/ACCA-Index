@@ -3,12 +3,14 @@ author:
 - LTSlw
 - dedfaf
 tags:
+- basic
+- getting-start
 - markdown
 date: 2023-09-16
 lastmod: 2024-02-28
 ---
 
-# 计协 · 茵蒂克丝 基础篇 - 第0.0话 从markdown说开去
+# markdown基础
 
 这是计协教程的第0话，梦开始的地方。在我们学习真正的计算魔法语言前，我们先来学习一种计算魔法的解释载体 - `markdown`
 
@@ -63,7 +65,7 @@ markdown文件的后缀是`.md`或`.markdown`，在实际使用中通常是`.md`
 1. 用VSCode打开markdown文件
 2. 使用快捷键`Ctrl+K`，`V`浏览（先按`Ctrl+K`后按`V`）
 
-![](imgs/00.00_01.png)你也可以直接在VSCode界面的右上角找这个预览按钮
+![预览按钮](imgs/00_00_preview_button.png)你也可以直接在VSCode界面的右上角找这个预览按钮
 
 你也可以自定义markdown预览的各种样式和主题，这些内容将在[VSCode编辑markdown](#vscode编辑markdown)中介绍
 
@@ -158,7 +160,7 @@ int main() {
 
 链接的基本格式：`[说明](https://fwlink)`，对应html中的`<a>`
 
-说明不一定是文字，一些markdown格式可以嵌套进说明，参考[第0.1话 嵌套](第0.1话%20markdown进阶.md/#嵌套)
+说明不一定是文字，一些markdown格式可以嵌套进说明，参考[第01话 markdown进阶 - 嵌套](第01话%20markdown进阶#嵌套)
 
 ### 图片
 
@@ -170,4 +172,4 @@ int main() {
 
 以上是对Markdown的一个非常初始的介绍，目的仅仅是为了让同学们了解这个工具（也是为了同学们能看到这份教程）
 
-欲学习更多markdown的技术，成为markdown能力者，请跟随茵蒂克丝进入[Markdown进阶篇](第0.1话%20markdown进阶.md)
+欲学习更多markdown的技术，成为markdown能力者，请跟随茵蒂克丝进入[Markdown进阶](第01话%20markdown进阶)

@@ -2,12 +2,14 @@
 author:
 - LTSlw
 tags:
+- basic
+- getting-start
 - git
 date: 2024-02-04
 lastmod: 2024-02-28
 ---
 
-# 计协 · 茵蒂克丝 基础篇 - 第3.1话 项目维护与github
+# 项目维护与github
 
 ## 如何维护项目
 
@@ -25,7 +27,7 @@ lastmod: 2024-02-28
 
 具体来说，一种常见实现是使用主分支`master`，从主分支分离出的开发分支`develop`和从开发分支分离的主题分支`topic`分支三种。其中`master`和`develop`是长期分支，`topic`是主题分支，往往有多个，负责不同的功能模块开发。`topic`基本完善后，首先合并到`develop`，`develop`在开发完毕后再合并到`master`。这样的效果是`master`对应的版本一般稳定，`develop`版本一般也能用，且包含最新的特性，但是不一定稳定，`topic`分支分别由不同模块的开发者使用测试，不同模块的开发工作互不影响
 
-![趋于稳定分支的流水线*（图源《Pro Git》 CC BY-NC-SA 3.0）*](./imgs/03.01_01_lr-branches-2.png)
+![趋于稳定分支的流水线*（图源《Pro Git》 CC BY-NC-SA 3.0）*](imgs/01_00_manage-branches.png)
 
 ### 如何协作开发
 
@@ -33,7 +35,7 @@ lastmod: 2024-02-28
 
 #### 集中式工作流
 
-![集中式工作流*（图源《Pro Git》 CC BY-NC-SA 3.0）*](./imgs/03.01_02_centralized_workflow.png)
+![集中式工作流*（图源《Pro Git》 CC BY-NC-SA 3.0）*](imgs/01_01_centralized_workflow.png)
 
 集中式工作流非常简单，适用于小项目，大多数情况下维护者只有确定的几个人。所有的开发者之间的地位是平等的，允许他们全都直接向远程仓库推送
 
@@ -41,7 +43,7 @@ lastmod: 2024-02-28
 
 #### 集成管理者工作流
 
-![集成管理者工作流*（图源《Pro Git》 CC BY-NC-SA 3.0）*](./imgs/03.01_03_integration-manager.png)
+![集成管理者工作流*（图源《Pro Git》 CC BY-NC-SA 3.0）*](imgs/01_02_integration-manager.png)
 
 大多数开源项目都采用了这种模式（或者它的变种），集成管理者工作流最大的特点是出现了管理者和官方仓库，其他开发者不能直接操作仓库，要先创建官方仓库的镜像，修改后由管理者裁定要不要合并到官方仓库，最大好处在与它允许不特定的人参与开发
 
@@ -63,13 +65,13 @@ lastmod: 2024-02-28
 
 1. 使用Github之前首先要注册账户，进入[首页](https://github.com/)，在导航栏中点击`Sign up`，进入注册界面
 
-![github 导航栏](./imgs/03.01_04_github-header.png)
+![github 导航栏](imgs/01_03_github-header.png)
 
 2. 按照提示依次输入邮箱、密码和用户名，用户名是你想要在github注册的名字，注册后，平台内你会和这个名字绑定。机器人验证通过后，点击刚出现的绿色按钮`Create accont`
 
 > 茵蒂克丝 tips：如果用教育邮箱以后申请`Student Pack`会方便一些
 
-![github 注册界面](./imgs/03.01_05_github-sign-up.png)
+![github 注册界面](imgs/01_04_github-sign-up.png)
 
 > 茵蒂克丝：github的验证码真是相当抽象
 
@@ -77,8 +79,8 @@ lastmod: 2024-02-28
 
 > 茵蒂克丝 tips：邮件找不到去垃圾邮件里看看
 
-![github 验证邮箱](./imgs/03.01_06_github-verify-email-1.png)
-![github 验证邮件](./imgs/03.01_07_github-verify-email-2.png)
+![github 验证邮箱](imgs/01_05_github-verify-email-1.png)
+![github 验证邮件](imgs/01_06_github-verify-email-2.png)
 
 4. 后面问为你是学生还是教师之类的问题，不想填下面有个`Skip personalization`跳过
 
@@ -86,7 +88,7 @@ lastmod: 2024-02-28
 
 大部分功能入口都可以在导航栏里找到
 
-![github 导航栏](./imgs/03.01_08_github-header-signed-in.png)
+![github 导航栏](imgs/01_07_github-header-signed-in.png)
 
 点击左侧三横线后会出现`Home`、`Issues`等按钮，方便处理和自己有关的活动，还会显示常用仓库和所属`Teams`
 
@@ -102,7 +104,7 @@ lastmod: 2024-02-28
 
 1. 点击`+` -> 点击`New repository`
 
-![新建仓库](./imgs/03.01_09_github-new-repo.png)
+![新建仓库](imgs/01_08_github-new-repo.png)
 
 2. 填写表单后点击`Create repository`
 

@@ -3,12 +3,14 @@ author:
 - LTSlw
 - dedfaf
 tags:
+- basic
+- getting-start
 - vscode
 date: 2024-02-06
 lastmod: 2024-02-29
 ---
 
-# 计协 · 茵蒂克丝 基础篇 - 第1话 编程环境与VSCode
+# 编程环境与VSCode
 
 每个开发者都要有一套趁手的工具。无论是编译、运行还是调试，各自都要依赖其他的软硬件，这些东西统称为环境。搭建环境是入门开发的必修课。本节除了介绍配置环境的一般方法，还会较为详细的介绍一个常用并且通吃的代码编辑器——VSCode
 
@@ -166,7 +168,7 @@ VSCode支持PWA，有浏览器就可以做到类似原生应用的效果，节�
 
 初次运行VSCode会有一个向导，引导你修改主题，安装扩展，设置VSCode，可以跟着走一遍
 
-![VSCode向导](./imgs/01_01_vscode-guide.png)
+![VSCode向导](imgs/00_00_vscode-guide.png)
 
 #### 设置主题
 
@@ -206,7 +208,7 @@ VSCode支持PWA，有浏览器就可以做到类似原生应用的效果，节�
 
 #### 下侧栏
 
-![panel](./imgs/01_03_panel.png)
+![panel](imgs/00_01_panel.png)
 
 快捷键：`Ctrl+J`显示/隐藏下侧栏
 
@@ -234,7 +236,7 @@ VSCode支持PWA，有浏览器就可以做到类似原生应用的效果，节�
 
 快捷键：`` Ctrl+` ``
 
-![terminal](./imgs/01_02_terminal.png)
+![terminal](imgs/00_02_terminal.png)
 
 除了出现常规的终端，可以见到右上角还有这样的几个按钮，点击`+`右侧的下箭头，除了可以拆分终端，还允许在指定终端里运行task。如果你的系统中有多种`shell`，你可以点击`Select Default Profile`选择一个最常用的
 
@@ -475,7 +477,7 @@ VSCode可以连接到很多外部的调试器，并且内置了一些语言的�
 
 调试过程中会显示调试工具栏
 
-![debug toolbar](./imgs/01_04_debug_toolbar.png)
+![debug toolbar](imgs/00_03_debug_toolbar.png)
 
 从左到右功能依次是：
 

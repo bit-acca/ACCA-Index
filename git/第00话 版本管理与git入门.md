@@ -3,12 +3,14 @@ author:
 - LTSlw
 - dedfaf
 tags:
+- basic
+- getting-start
 - git
 date: 2023-10-13
 lastmod: 2024-02-28
 ---
 
-# 计协 · 茵蒂克丝 基础篇 - 第3.0话 版本控制与git入门
+# 版本控制与git入门
 
 你是一名普通的计算魔法学学生，你最近接到了一个奇怪的白袍子小萝莉的任务：帮助她编写一本关于计算魔法的入门书籍
 
@@ -196,7 +198,7 @@ git config <key>
 - 已暂存：表示对一个已修改文件的当前版本做了标记，使之包含在下次提交的快照中
 - 已提交：数据已经安全地保存在本地数据库中
 
-![文件的状态变化周期*（图源《Pro Git》 CC BY-NC-SA 3.0）*](./imgs/03.00_01_lifecycle.png)
+![文件的状态变化周期*（图源《Pro Git》 CC BY-NC-SA 3.0）*](imgs/00_00_lifecycle.png)
 
 git的一般工作流程：
 

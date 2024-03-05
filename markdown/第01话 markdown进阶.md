@@ -3,12 +3,13 @@ author:
 - LTSlw
 - dedfaf
 tags:
+- mid
 - markdown
 date: 2023-09-20
 lastmod: 2023-09-22
 ---
 
-# 计协 · 茵蒂克丝 基础篇 - 第0.1话 markdown进阶
+# markdown进阶
 
 相信在[markdown基础篇](第0.0话%20从markdown说开去.md)中你已经学会了最基础的markdown阅览，导出和编写。茵蒂克丝非常欣赏你进入本章，不止于markdown的皮毛！在之后的《计协 · 茵蒂克丝》以及以后的计算魔法学习中，自主了解和学习也是非常重要的！
 
