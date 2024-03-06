@@ -10,21 +10,32 @@
 
 [![CC BY-NC-SA 4.0](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png) 协议内容](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-*考虑到维护性和扩展性，我们只对第0.0话提供pdf版本，后续教程可按照0.0话中的方法阅读*
+*考虑到维护性和扩展性，我们只对markdown基础提供pdf版本，后续教程可按照其中的方法阅读*
 
-## 基础篇
+## 快速上手
 
-- [第0.0话 从markdown说开去](基础篇/第0.0话%20从markdown说开去.md)
-- [第0.1话 markdown进阶](基础篇/第0.1话%20markdown进阶.md)
-- [第1话 编程环境与VScode](基础篇/第1话%20编程环境与VSCode.md)
-- [第3.0话 版本管理与git入门](基础篇/第3.0话%20版本管理与git入门.md)
-- [第3.1话 项目维护与github](基础篇/第3.1话%20项目维护与github.md)
+此处的篇目包含了计算机学习绕不开的技术的入门篇目，可以让你对这些技术简单了解并能使用最基础的功能，如果你无从下手，按照顺序阅读即可
+
+1. [markdown基础](markdown/第00话%20markdown基础.md)
+2. [编程环境与VSCode](开发环境/第00话%20编程环境与VSCode.md)
+3. [版本管理与git入门](git/第00话%20版本管理与git入门.md)
+
+## 目录
+
+- [git](git)
+  - [第00话 版本管理与git入门](git/第00话%20版本管理与git入门.md)
+  - [第01话 markdown进阶](git/第01话%20项目维护与github.md)
+- [markdown](markdown)
+  - [第00话 markdown基础](markdown/第00话%20markdown基础.md)
+  - [第01话 markdown进阶](markdown/第01话%20markdown进阶.md)
+- [开发环境](开发环境)
+  - [第00话 编程环境与VSCode](开发环境/第00话%20编程环境与VSCode.md)
 
 ## To-do list
 
 - [x] markdown基础
 - [x] markdown进阶
-- [ ] vscode
+- [x] vscode
 - [ ] bt
 - [ ] rss
 - [ ] 如何提问
@@ -34,6 +45,10 @@
 - [x] git入门
 
 *adding...*
+
+## 参与ACCA-Index
+
+[CONTRIBUTE.md](CONTRIBUTE.md)
 
 ## Contributors
 
