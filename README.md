@@ -48,7 +48,7 @@
 
 ## 参与ACCA-Index
 
-[CONTRIBUTE.md](CONTRIBUTE.md)
+参见[CONTRIBUTE.md](CONTRIBUTE.md)
 
 ## Contributors
 
