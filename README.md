@@ -30,6 +30,8 @@
   - [第01话 markdown进阶](markdown/第01话%20markdown进阶.md)
 - [开发环境](开发环境)
   - [第00话 编程环境与VSCode](开发环境/第00话%20编程环境与VSCode.md)
+- [hugo](hugo)
+  - [第00话 认识hugo](hugo/第00话%20认识hugo.md)
 
 ## To-do list
 
