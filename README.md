@@ -32,6 +32,8 @@
   - [第00话 编程环境与VSCode](开发环境/第00话%20编程环境与VSCode.md)
 - [hugo](hugo)
   - [第00话 认识hugo](hugo/第00话%20认识hugo.md)
+  - [第01话 hugo初体验](hugo/第01话%20hugo初体验.md)
+  - [第02话 hugo基础](hugo/第02话%20hugo基础.md)
 
 ## To-do list
 
