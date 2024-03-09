@@ -27,8 +27,8 @@ lastmod: 2024-03-06
 ## 前置技术
 
 - markdown
-- git（推荐）
-- go mod（推荐）
+- git（可选）
+- go mod（可选）
 
 ## 安装hugo
 
